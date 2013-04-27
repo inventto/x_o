@@ -1,1 +1,17 @@
 /* CSS declarations go here */
+.board {
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+.line {
+  clear: both;
+  height: 32px;
+}
+.cell {
+  float: left;
+  height: 32px;
+  width: 32px;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  overflow: hidden;
+}
